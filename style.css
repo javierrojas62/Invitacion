@@ -38,17 +38,7 @@ body {
     overflow-x: hidden;
 }
 
-#info {
-    position: relative;
-    /* Necesario para usar un pseudo-elemento */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-
-#maps::before {
+#info::before {
     content: '';
     /* Obligatorio para pseudo-elementos */
     position: absolute;

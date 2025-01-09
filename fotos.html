@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="container-fluid bg-light d-flex justify-content-around fixed-top py-2 p-5 ">
+        <div class="container d-flex justify-content-between align-items-center px-2">
+            <a href="./index.html" class="btn botones">Inicio</a>
+            <a href="./index.html#info" class="btn botones">Info</a>
+            <a href="./index.html#mapa" class="btn botones">Maps</a>
+            <a href="./fotos.html" class="btn botones">Fotos</a>
+        </div>
+    </header>
+    <main>
+        <div class="container text-center my-4 mt-5" >
+            <h4>¡Comparte tus fotos del cumpleaños!</h4>
+            <p>Sube tus fotos y mira las que han compartido los demás. Haz clic en el botón para comenzar.</p>
+            <!-- Botón para ir a la carpeta de Google Drive -->
+            <a href="https://drive.google.com/drive/folders/1iJgHTEo5kn6MVsX9b-a4uXdg5w4cwTr1" 
+               target="_blank" 
+               class="btn btn-success btn-lg">
+                Sube tus fotos aquí
+            </a>
+        
+            <div class="mt-4">
+                <!-- Iframe para mostrar la carpeta de Google Drive -->
+                <iframe 
+                    src="https://drive.google.com/embeddedfolderview?id=1iJgHTEo5kn6MVsX9b-a4uXdg5w4cwTr1#grid" 
+                    width="100%" 
+                    height="600" 
+                    frameborder="0" 
+                    class="rounded shadow">
+                </iframe>
+            </div>
+        </div>
+        
+    </main>
+</body>
+
+</html>
